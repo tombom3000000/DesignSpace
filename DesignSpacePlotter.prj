@@ -1,0 +1,81 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="462866803" file="C:\Users\Thoma\OneDrive - University of Leeds\PhD project infomation\Data\Code\MATLAB\Practise\Design space code\DesignSpace\DesignSpacePlotter.prj" location="C:\Users\Thoma\OneDrive - University of Leeds\PhD project infomation\Data\Code\MATLAB\Practise\Design space code\DesignSpace" name="DesignSpacePlotter" target="target.mlapps" target-name="Package App">
+    <param.appname>DesignSpacePlotter</param.appname>
+    <param.authnamewatermark>Thomas Dixon</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Allows to plot data in up to 5 dimensions (x,y,z,colour and dot size) given an excel doc.</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\Thoma\AppData\Local\Temp\tpdcf4fabb_64fe_4b9b_bec9_2f9ab4694fee.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>ff9e90a1-7bda-4f46-96c9-1d5f8a1b8a3f</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\DesignSpace.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Thoma\OneDrive - University of Leeds\PhD project infomation\Data\Code\MATLAB\Practise\Design space code" name="DesignSpace" optional="false">C:\Users\Thoma\OneDrive - University of Leeds\PhD project infomation\Data\Code\MATLAB\Practise\Design space code\DesignSpace</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2020b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
