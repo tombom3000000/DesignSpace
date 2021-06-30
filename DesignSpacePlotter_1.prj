@@ -8,7 +8,7 @@
     <param.email />
     <param.company />
     <param.summary>Allows to plot data in up to 5 dimensions (x,y,z,colour and dot size) given an excel doc.</param.summary>
-    <param.description>Need matlab 2020b or runtime 9.9 to use this</param.description>
+    <param.description />
     <param.screenshot />
     <param.guid />
     <param.installpath.string>\DesignSpacePlotter\</param.installpath.string>
@@ -41,15 +41,14 @@
 	 
  Input Arguments 
 	 -?  print help on how to use the application 
-	 input arguments 
- Description 
- 	 Need matlab 2020b or runtime 9.9 to use this</param.help.text>
+	 input arguments</param.help.text>
     <unset>
       <param.icon />
       <param.icons />
       <param.version />
       <param.email />
       <param.company />
+      <param.description />
       <param.screenshot />
       <param.guid />
       <param.installpath.string />
@@ -83,7 +82,9 @@
     </fileset.main>
     <fileset.resources />
     <fileset.package />
-    <fileset.depfun />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Blue2Red.mat</file>
+    </fileset.depfun>
     <build-deliverables>
       <file location="${PROJECT_ROOT}\DesignSpacePlotter_1\for_testing" name="splash.png" optional="false">C:\Users\Thoma\OneDrive - University of Leeds\PhD project infomation\Data\Code\MATLAB\Practise\Design space code\DesignSpace\DesignSpacePlotter_1\for_testing\splash.png</file>
       <file location="${PROJECT_ROOT}\DesignSpacePlotter_1\for_testing" name="DesignSpacePlotter.exe" optional="false">C:\Users\Thoma\OneDrive - University of Leeds\PhD project infomation\Data\Code\MATLAB\Practise\Design space code\DesignSpace\DesignSpacePlotter_1\for_testing\DesignSpacePlotter.exe</file>

@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="462866803" file="C:\Users\Thoma\OneDrive - University of Leeds\PhD project infomation\Data\Code\MATLAB\Practise\Design space code\DesignSpace\DesignSpacePlotter.prj" location="C:\Users\Thoma\OneDrive - University of Leeds\PhD project infomation\Data\Code\MATLAB\Practise\Design space code\DesignSpace" name="DesignSpacePlotter" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2098669421" file="C:\Users\Thoma\OneDrive - University of Leeds\PhD project infomation\Data\Code\MATLAB\Practise\Design space code\DesignSpace\DesignSpacePlotter.prj" location="C:\Users\Thoma\OneDrive - University of Leeds\PhD project infomation\Data\Code\MATLAB\Practise\Design space code\DesignSpace" name="DesignSpacePlotter" target="target.mlapps" target-name="Package App">
     <param.appname>DesignSpacePlotter</param.appname>
     <param.authnamewatermark>Thomas Dixon</param.authnamewatermark>
     <param.email />
@@ -8,14 +8,14 @@
     <param.icons />
     <param.summary>Allows to plot data in up to 5 dimensions (x,y,z,colour and dot size) given an excel doc.</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\Thoma\AppData\Local\Temp\tpdcf4fabb_64fe_4b9b_bec9_2f9ab4694fee.png</param.screenshot>
+    <param.screenshot>C:\Users\Thoma\AppData\Local\Temp\tp3715acc2_6281_4760_8ba6_44e7b002ba20.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
     <param.platforms />
     <param.output>${PROJECT_ROOT}</param.output>
-    <param.guid>ff9e90a1-7bda-4f46-96c9-1d5f8a1b8a3f</param.guid>
+    <param.guid>f5efb2e7-f558-407d-be92-ec0a9f6b0be0</param.guid>
     <unset>
       <param.email />
       <param.company />
@@ -32,7 +32,9 @@
     <fileset.main>
       <file>${PROJECT_ROOT}\DesignSpace.mlapp</file>
     </fileset.main>
-    <fileset.depfun />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Blue2Red.mat</file>
+    </fileset.depfun>
     <fileset.resources />
     <fileset.package />
     <build-deliverables>

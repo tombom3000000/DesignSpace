@@ -9,7 +9,13 @@ in the list box and either hold down control to select multiple individual items
 a row. The colour palette (colourmap for when the dimension is greater than three), default colour (when the number of 
 dimensions is three or less) and line style (for when the dimension is greater than two) can also be modified.
 
-Select debug mode to see which experiment belongs to which, and the non-xyz values when observing graphs in the 4th and 
-5th dimension. Finally invert colour changes round the colourmap if needed.
+Select debug mode to see which experiment belongs to which, as well as the non-xyz values when observing graphs in the 4th and 
+5th dimension. You can also invert the colourmap, select the colour pallet (4th and 5th dimensons), select the colour (2nd and 
+3rd dimensons), select the stem style (3rd, 4th and 5th dimensons) and turn the grid off. There is also an option to record a
+'video' of your plot where it plots each point in order given the frames per second (FPS). For example if the FPS is 2, then
+two points per second will be plotted in the video. Each frame is saved as an individual image in the 'VideoImages' file and
+will be saved over each time a new plot is made. The program brings up a seperate figure to do this, which can be closed when 
+it has finished.
 
 Enjoy 😊
+a
