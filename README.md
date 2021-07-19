@@ -18,6 +18,5 @@ will be saved over each time a new plot is made. The program brings up a seperat
 it has finished.
 
 Enjoy 😊
-a
 
 ![image19](https://user-images.githubusercontent.com/30509293/125974736-a35f0a0f-d1e2-4206-bffd-6eb7013a3d19.jpg)
